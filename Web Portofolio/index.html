@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+                <a href="#" class="navbar-logo">Portofolio<span>Saya</span>.</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portofolio</a>< /li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+            <i class="ri-menu-line"></i>
+        </nav>
+        <div class="header-text">  
+            <p>UI DESIGNER</p>
+            <h1>Halo, Nama Saya <span>Ari Saeful Hakim</span><br>Dari Tegal</h1>
+        </div>
+    </div>
+</div> 
+<!-- ---------------about------------- -->
+   <div id="about">
+       <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2023-11-16 at 20.30.00_c7b021e4.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero vitae voluptatem minus quod at cum, quos nemo exercitationem? Consectetur minus alias dolorum repellat fugit eveniet voluptas id consequatur dolore asperiores.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skill')">Skill</p>
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web interface</li>
+                            <li><span>Web Development</span><br>Front End Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Training in Codingstudio</li>
+                            <li><span>2022 - Current</span><br>Front End Web Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2022</span><br>UI/UX Design Training at codingstudio</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+       </div>
+   </div>
+   <!-- --------------services------------- -->
+   <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores minus odio porro sit nesciunt nihil, similique nisi quam rem laudantium atque veritatis ullam, optio ad necessitatibus accusantium sint aliquam ex.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores minus odio porro sit nesciunt nihil, similique nisi quam rem laudantium atque veritatis ullam, optio ad necessitatibus accusantium sint aliquam ex.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+   </div>
+   <!-- ---------------portofolio----------- -->
+   <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Screenshot 2023-07-13 224923.png">
+                    <div class="layer">
+                        <h3>Sosial Media App</h3>
+                        <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Screenshot (38).png">
+                    <div class="layer">
+                        <h3>Musik App</h3>
+                        <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+   </div>
+   <!-- ------------------kontak----------------- -->
+   <div id="kontak">
+    <div class="container">
+        <div class="row">
+            <div class="kontak-left">
+                <h1 class="sub-title">Kontak Saya</h1>
+                <p><i class="ri-send-plane-fill"></i>hakimarisaeful@gmail.com</p>
+                <p><i class="ri-phone-fill"></i>08823718-970</p>
+                <div class="sosial-icons">
+                    <a href="https://www.facebook.com/ari.saeful.359?mibextid=ZbWKwL"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="https://instagram.com/ari_saeful_21?igshid=NzZlODBkYWE4Ng=="><i class="ri-instagram-line"></i></a>
+                    <a href="https://www.linkedin.com/in/daffa-abdur-rozaq-341933255/"><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+                <a href="black modern corporate Resume.png" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="kontak-right">
+                <form>
+                    <input type="text" name="Nama" placeholder="Nama" required>
+                    <input type="text" name="Email" placeholder="Email" required>
+                    <textarea name="Pesan" rows="6" placeholder="Pesan"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <h1>Ari Saeful Hakim</h1>
+        <p>Copyright © ASH12. Production All rights reserved </p>
+    </div>
+   </div>
+
+   <script>
+
+       var tablinks =document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+
+   </script>
+</body>
+</html>
